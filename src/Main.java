@@ -32,12 +32,12 @@ abstract class Animal{
          x = 100;
      }
 }
-//class Dog extends Animal{
-//    void colour(){
-//        System.out.println("Black");
-//    }
-//
-//    public void sound(){
-//        System.out.println("Bark");
-//    }
-//}
+class Dog extends Animal{
+    void colour(){
+        System.out.println("Black");
+    }
+
+    public void sound(){
+        System.out.println("Bark");
+    }
+}
