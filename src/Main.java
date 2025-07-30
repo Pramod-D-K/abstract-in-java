@@ -22,6 +22,9 @@ abstract class Animal{
     Animal(){
 
     }
+    static void print (){
+        System.out.println("Print inside abstract class");
+    }
 }
  abstract class cat extends Animal{
     void colour(){
@@ -39,5 +42,8 @@ class Dog extends Animal{
 
     public void sound(){
         System.out.println("Bark");
+    }
+    static void print(){
+        System.out.println("print in the concrete class ");
     }
 }
